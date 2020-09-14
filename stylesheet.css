@@ -46,6 +46,7 @@ section {
     background-color: #C7DDEA;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .header-container2 {
@@ -54,6 +55,7 @@ section {
     background-color: #F17949;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .header-container3 {
@@ -62,6 +64,7 @@ section {
     background-color: #FAB131;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .grid-item-nav {
@@ -76,13 +79,21 @@ section {
     grid-column: 1/4;
     grid-row: 1/2;
     background-color: #A9A19E;
+    flex-direction: column;
 }
 
 .main-container2 {
-    grid-row: 2/3;
     grid-column: 1/4;
+    grid-row: 1/2;
+    flex-direction: column;
     background-color: #FAB131;
 }
+.paragraph {
+ 
+
+}
+    
+
 
 .main-container3 {
     grid-row: 3/4;
@@ -211,4 +222,11 @@ nav>ul>li {
     left: 219px;
     top: 1359px;
     background: #777574;
+}
+
+
+h2{
+    color: white;
+    text-align: center;
+    
 }
