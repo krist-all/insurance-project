@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0%;
 }
+
 .wrapper {
     display: grid;
     max-width: 100%;
@@ -23,6 +24,8 @@
     max-width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 612px 680px 1fr 1fr;
+    /* grid-row: 2/3;
+    grid-column: 2/3; */
     grid-row: 2/3;
     grid-column: 2/3;
 }
@@ -75,26 +78,55 @@ section {
     justify-content: space-evenly;
 }
 
-
 .main-container1 {
     grid-column: 1/4;
-    grid-row: 1/2;
     background-color: #A9A19E;
+    display: grid;
+}
+
+.container1-left {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    /* or 45px */
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.container1-right {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .main-container2 {
+    display: grid;
     grid-column: 1/4;
-    grid-row: 1/2;
     flex-direction: column;
     background-color: #FAB131;
     justify-content: center;
     align-items: center;
+    grid-auto-flow: column;
 }
-    
-
 
 .main-container3 {
+    display: grid;
     grid-row: 3/4;
     grid-column: 1/2;
     background-color: #C7DDEA;
@@ -103,42 +135,51 @@ section {
 }
 
 .main-container4 {
+    display: grid;
     grid-row: 3/4;
     grid-column: 2/3;
     background-color: #FFFFFF;
+    grid-auto-flow: row;
 }
 
 .main-container5 {
+    display: grid;
     grid-row: 3/4;
     grid-column: 3/4;
     background-color: #EBEBEB;
+    grid-auto-flow: row;
 }
 
 .main-container6 {
+    display: grid;
     grid-row: 4/5;
     grid-column: 1/2;
     background-color: #FFFFFF;
-    
+    grid-auto-flow: row;
 }
 
 .main-container7 {
+    display: grid;
     grid-row: 4/5;
     grid-column: 2/3;
     background-color: #F17949;
+    grid-auto-flow: row;
 }
 
 .main-container8 {
+    display: grid;
     grid-row: 4/5;
     grid-column: 3/4;
     background-color: #FFFFFF;
+    grid-auto-flow: row;
 }
 
-.footer-container1{
+.footer-container1 {
     grid-row: 1/2;
     background-color: #A9A19E;
 }
 
-.footer-container2{
+.footer-container2 {
     grid-row: 2/3;
     background-color: #777574;
 }
@@ -151,6 +192,7 @@ button {
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     border: none;
 }
+
 nav>ul>li {
     display: inline;
     color: grey;
@@ -158,16 +200,17 @@ nav>ul>li {
     padding-left: 30px;
 }
 
-
-.navbar {  /* todo: check that we're suppose to adjust for what's most efficent or just as it says */
+.navbar {
+    /* todo: check that we're suppose to adjust for what's most efficent or just as it says */
     display: flex;
     flex-direction: row;
     height: 68px;
-    width: auto; 
+    width: auto;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
+
 .navbar_list {
     display: flex;
     flex-direction: row;
@@ -177,32 +220,42 @@ nav>ul>li {
     align-items: center;
     list-style-type: none;
     width: 100%;
-    height: 68px;  /* todo: fix height to be dynamic */
+    height: 68px;
+    /* todo: fix height to be dynamic */
     margin: 0;
     padding: 0;
-    opacity: 0.4; /* need to doubble check if i'm just fooling my self */
+    opacity: 0.4;
+    /* need to doubble check if i'm just fooling my self */
     color: #000000;
 }
-.navbar_list a:hover{ /* todo: fix the look to make it look darker, it just dosen't look right */
+
+.navbar_list a:hover {
+    /* todo: fix the look to make it look darker, it just dosen't look right */
     color: #000000;
 }
-.contact_header { /* todo: want to clean up the grid */
+
+.contact_header {
+    /* todo: want to clean up the grid */
     width: 100%;
-    height: 340px; /* todo: fix height to be dynamic */
+    height: 340px;
+    /* todo: fix height to be dynamic */
     background: #C7DDEA;
     display: grid;
     grid-template: repeat(8, 1fr) / repeat(8, 1fr);
-    
 }
-.contact_header_text { /* todo: fit text to box in " oh hello there" or check i they want it to be dynamic */
+
+.contact_header_text {
+    /* todo: fit text to box in " oh hello there" or check i they want it to be dynamic */
     display: grid;
     grid-area: 5 / 4 / 7 / 6;
-    font-weight: 900; /* reminder:it won't fit that well beacuse i designate the size of the text */
+    font-weight: 900;
+    /* reminder:it won't fit that well beacuse i designate the size of the text */
     font-size: 45px;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #000000;
 }
+
 .contact_input {
     width: 1002px;
     height: 544px;
@@ -210,15 +263,19 @@ nav>ul>li {
     top: 408px;
     background: #A9A19E;
 }
+
 .contact_map {
     width: 1002px;
     height: 407px;
     left: 219px;
     top: 952px;
-    background-color: brown; /* todo:find the right .png and remove the place holder brown */
-   /*  background: url(.png); */
+    background-color: brown;
+    /* todo:find the right .png and remove the place holder brown */
+    /*  background: url(.png); */
 }
-.contact_empty_footer { /* todo: find out why it's there while not holding a function */
+
+.contact_empty_footer {
+    /* todo: find out why it's there while not holding a function */
     width: 1002px;
     height: 340px;
     left: 219px;
@@ -226,21 +283,50 @@ nav>ul>li {
     background: #777574;
 }
 
+.color-grey {
+    color: grey;
+}
 
-h2{
+h2 {
     color: white;
     text-align: center;
-    
 }
 
-a{
-        color: grey;
-        cursor: pointer;
-        text-decoration: none;
-
+.top-corner-number {
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    /* or 35px */
+    letter-spacing: -0.02em;
+    /* margin: 2rem; */
+    color: rgba(0, 0, 0, 0.4);
 }
-a:hover{
+
+.number1 {
+    display: grid;
+    font-family: Fira Sans;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+a {
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
     color: black;
 }
 
+.text-container {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
 }
