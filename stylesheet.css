@@ -118,7 +118,6 @@ section {
 }
 
 .main-container2 {
-    display: flex;
     grid-column: 1/4;
     flex-direction: column;
     background-color: #FAB131;
@@ -127,7 +126,6 @@ section {
 }
 
 .main-container3 {
-    display: flex;
     grid-row: 3/4;
     grid-column: 1/2;
     background-color: #C7DDEA;
@@ -136,49 +134,135 @@ section {
 }
 
 .main-container4 {
-    display: flex;
     grid-row: 3/4;
     grid-column: 2/3;
     background-color: #FFFFFF;
     grid-auto-flow: row;
-    align-items: center;
-    justify-content: center;
+    
+
 }
 
 .main-container5 {
-    display: flex;
     grid-row: 3/4 grid-column: 3/4;
     background-color: #EBEBEB;
     grid-auto-flow: row;
+    
 }
 
 .main-container6 {
-    display: grid;
     grid-row: 4/5;
     grid-column: 1/2;
     background-color: #FFFFFF;
     grid-auto-flow: row;
+    
 }
 
 .main-container7 {
-    display: grid;
     grid-row: 4/5;
     grid-column: 2/3;
     background-color: #F17949;
     grid-auto-flow: row;
+    
 }
 
 .main-container8 {
-    display: grid;
     grid-row: 4/5;
     grid-column: 3/4;
     background-color: #FFFFFF;
     grid-auto-flow: row;
+   
+}
+
+.number-box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    padding: 20px;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    /* or 35px */
+    letter-spacing: -0.02em;
+    /* margin: 2rem; */
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.text-box {
+    display: flex;
+    width: 257px;
+    height: 113px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.heading-box h1 {
+    color:white;
+     
+}
+
+.heading-align {
+    text-align: left;
+
+
+}
+h1 {
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+h3 {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+h5 {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .footer-container1 {
     grid-row: 1/2;
     background-color: #A9A19E;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-container2 {
@@ -207,8 +291,8 @@ button {
 nav>ul>li {
     display: inline;
     color: grey;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: 55px;
+    padding-left: 55px;
     font-family: Fira Sans;
     font-style: normal;
     font-size: 12px;
@@ -298,67 +382,14 @@ nav>ul>li {
     background: #777574;
 }
 
-h1 {
-    font-family: Frank Ruhl Libre;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    color: white;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
 
-h2 {
-    color: white;
-    text-align: center;
-    font-family: 'Frank Ruhl Libre', serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.02em;
-}
 
-h3 {
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 11px;
-    line-height: 13px;
-    color: rgba(0, 0, 0, 0.5);
-}
 
-.top-corner-number {
-    font-family: Frank Ruhl Libre;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 35px;
-    /* or 35px */
-    letter-spacing: -0.02em;
-    /* margin: 2rem; */
-    color: rgba(0, 0, 0, 0.4);
-    padding-top: 20px;
-    padding-left: 20px;
-}
 
-.number1 {
-    display: flex;
-    font-family: 'Fira Sans', sans-serif;
-    color: rgba(0, 0, 0, 0.7);
-    text-align: start;
-    font-style: normal;
-    font-size: 17px;
-    line-height: 20px;
-    justify-content: left;
-}
+
 
 a {
-    color: grey;
+    color:gray;
     cursor: pointer;
     text-decoration: none;
 }
