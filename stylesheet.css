@@ -316,6 +316,7 @@ a {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 a:hover {
     color: black;
 }
@@ -330,3 +331,6 @@ a:hover {
     line-height: 20px;
     color: rgba(0, 0, 0, 0.6);
 }
+=======
+
+>>>>>>> 8470fd132acab0300e1a3723aee4f9496619fc48
