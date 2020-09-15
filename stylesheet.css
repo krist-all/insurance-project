@@ -250,11 +250,12 @@ nav>ul>li {
 
 .contact_header {
     /* todo: want to clean up the grid */
-    width: 100%;
-    height: 340px;
+/*     width: 100%;
+    height: 340px; */
     /* todo: fix height to be dynamic */
-    background: #C7DDEA;
     display: grid;
+    max-width: 100%;
+    background: #C7DDEA;
     grid-template: repeat(8, 1fr) / repeat(8, 1fr);
 }
 
@@ -362,6 +363,7 @@ a {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD a:hover {
     color: black;
 }
@@ -370,11 +372,104 @@ a {
     padding-top: 20px;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    color: rgba(0, 0, 0, 0.6);
+=======
+.contact_input {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
 }
 
+.contact_input_email_container {
+    display: grid;
+    grid-area: 1/2/1/2;
+}
+
+.contact_input_message_container {
+    display: grid;
+    grid-area: 2/2/2/2;
+}
+
+.contact_input_button {
+    display: grid;
+    grid-area: 3/2/3/2;
+}
+
+.contact_input_header {
+    display: grid;
+    grid-area: 1/1/1/1;
+}
+
+.contact_input_container_text {
+    font-family: Fira Sans;
+>>>>>>> dd3c3650782f804cc8b9330fd6fc2ad72f99fb5f
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    /* or 14px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+<<<<<<< HEAD
 =======>>>>>>>8470fd132acab0300e1a3723aee4f9496619fc48
+=======
+.contact_input_container_form { /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
+    background: #FEFEFE;
+    border-radius: 2px;
+    height: 80%;
+}
+
+.contact_input_container_form_textarea {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    /* or 14px */
+    letter-spacing: -0.02em;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+    margin: 3%;
+}
+
+.contact_input_button {
+    display: flex;
+  /*   align-self: center; */
+    align-items: center;
+   /*  justify-content: right; */
+    margin-top: 5%;
+    margin-left: 73.6%;
+
+}
+
+.contact_input_header {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-family: Frank Ruhl Libre;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+line-height: 100%;
+/* or 45px */
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+/* textarea { just here for testing purposes
+    width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+} */
+>>>>>>> dd3c3650782f804cc8b9330fd6fc2ad72f99fb5f
