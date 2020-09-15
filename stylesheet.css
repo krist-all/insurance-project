@@ -317,6 +317,7 @@ a {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .contact_input {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(2, 1fr);
@@ -343,6 +344,16 @@ a {
 }
 
 .contact_input_container_text {
+=======
+<<<<<<< HEAD
+a:hover {
+    color: black;
+}
+
+.text-container {
+    padding-top: 20px;
+    text-align: center;
+>>>>>>> parent of a90edaa... changes
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
@@ -361,7 +372,9 @@ a {
     border-radius: 2px;
     height: 80%;
 }
+=======
 
+<<<<<<< HEAD
 .contact_input_container_form_textarea {
     font-family: Fira Sans;
     font-style: normal;
@@ -412,3 +425,6 @@ color: #FFFFFF;
   border-radius: 4px;
   background-color: #f8f8f8;
 } */
+=======
+>>>>>>> 8470fd132acab0300e1a3723aee4f9496619fc48
+>>>>>>> parent of a90edaa... changes
