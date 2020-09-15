@@ -50,6 +50,9 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: Fira Sans;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .header-container2 {
@@ -90,8 +93,7 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: Frank Ruhl Libre;
-    font-style: normal;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 900;
     font-size: 45px;
     line-height: 100%;
@@ -106,7 +108,7 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: Fira Sans;
+    font-family: 'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -116,17 +118,16 @@ section {
 }
 
 .main-container2 {
-    display: grid;
+    display: flex;
     grid-column: 1/4;
     flex-direction: column;
     background-color: #FAB131;
     justify-content: center;
     align-items: center;
-    grid-auto-flow: column;
 }
 
 .main-container3 {
-    display: grid;
+    display: flex;
     grid-row: 3/4;
     grid-column: 1/2;
     background-color: #C7DDEA;
@@ -135,17 +136,18 @@ section {
 }
 
 .main-container4 {
-    display: grid;
+    display: flex;
     grid-row: 3/4;
     grid-column: 2/3;
     background-color: #FFFFFF;
     grid-auto-flow: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-container5 {
     display: grid;
-    grid-row: 3/4;
-    grid-column: 3/4;
+    grid-row: 3/4 grid-column: 3/4;
     background-color: #EBEBEB;
     grid-auto-flow: row;
 }
@@ -191,6 +193,15 @@ button {
     border-radius: 100px;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     border: none;
+    top: 913px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
 }
 
 nav>ul>li {
@@ -198,6 +209,9 @@ nav>ul>li {
     color: grey;
     padding-right: 30px;
     padding-left: 30px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-size: 12px;
 }
 
 .navbar {
@@ -283,13 +297,39 @@ nav>ul>li {
     background: #777574;
 }
 
-.color-grey {
-    color: grey;
+h1 {
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 h2 {
     color: white;
     text-align: center;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+h3 {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .top-corner-number {
@@ -301,13 +341,19 @@ h2 {
     letter-spacing: -0.02em;
     /* margin: 2rem; */
     color: rgba(0, 0, 0, 0.4);
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .number1 {
-    display: grid;
-    font-family: Fira Sans;
+    display: flex;
+    font-family: 'Fira Sans', sans-serif;
     color: rgba(0, 0, 0, 0.7);
-    text-align: center;
+    text-align: start;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 20px;
+    justify-content: left;
 }
 
 a {
@@ -316,21 +362,19 @@ a {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-a:hover {
+<<<<<<< HEAD a:hover {
     color: black;
 }
 
 .text-container {
     padding-top: 20px;
     text-align: center;
-    font-family: Fira Sans;
+    font-family: 'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.6);
 }
-=======
 
->>>>>>> 8470fd132acab0300e1a3723aee4f9496619fc48
+=======>>>>>>>8470fd132acab0300e1a3723aee4f9496619fc48
