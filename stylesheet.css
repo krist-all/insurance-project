@@ -236,12 +236,11 @@ nav>ul>li {
 
 .contact_header {
     /* todo: want to clean up the grid */
-/*     width: 100%;
-    height: 340px; */
+    width: 100%;
+    height: 340px;
     /* todo: fix height to be dynamic */
-    display: grid;
-    max-width: 100%;
     background: #C7DDEA;
+    display: grid;
     grid-template: repeat(8, 1fr) / repeat(8, 1fr);
 }
 
@@ -318,6 +317,7 @@ a {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .contact_input {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(2, 1fr);
@@ -347,12 +347,16 @@ a {
 =======
 <<<<<<< HEAD
 a:hover {
+=======
+<<<<<<< HEAD a:hover {
+>>>>>>> parent of edc68de... changes
     color: black;
 }
 
 .text-container {
     padding-top: 20px;
     text-align: center;
+<<<<<<< HEAD
 >>>>>>> parent of a90edaa... changes
     font-family: Fira Sans;
     font-style: normal;
@@ -428,3 +432,14 @@ color: #FFFFFF;
 =======
 >>>>>>> 8470fd132acab0300e1a3723aee4f9496619fc48
 >>>>>>> parent of a90edaa... changes
+=======
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+=======>>>>>>>8470fd132acab0300e1a3723aee4f9496619fc48
+>>>>>>> parent of edc68de... changes
