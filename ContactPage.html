@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <div class="wrapper">
-    <header class="contact_header">
-        <h1 class="contact_header_text">Oh hello there!</h1>
-    </header>
+    <div class="wrapper">  
     <main>
+        <header class="contact_header">
+            <h1 class="contact_header_text">Oh hello there!</h1>
+        </header>
         <nav class="navbar">
             <ul class="navbar_list">
                 <li><a name="navbar_item" href="index.html">Home</a></li>
@@ -22,11 +22,21 @@
                 <li><a name="navbar_item" href="">Why us</a></li> <!-- the page doesn't exist -->
                 <li><a name="navbar_item" href="ContactPage.html">Contact</a></li>
             </ul>
-
         </nav>
-        <section class="contact_input">
-            <!-- todo: Write the right class name for input -->
-
+        <section class="contact_input"><!-- todo: Write the right class name for input -->
+        <section class="contact_input_header">What's on your mind?</section>
+        <section class="contact_input_email_container">
+            <h3 class="contact_input_container_text">Your email</h3>
+            <form class="contact_input_container_form"></form>
+            <textarea></textarea>
+        </section>
+        <section class="contact_input_message_container">
+            <h3 class="contact_input_container_text">Your message</h3>
+            <form class="contact_input_container_form"></form>
+            <textarea class="contact_input_container_form_textarea">Dear Insurance company...</textarea>
+        </section>
+        <button class="contact_input_button">SEND MESSAGE</button>
+        
         </section>
         <article class="contact_map">
             <article class="contact_map_text"></article>
@@ -36,5 +46,4 @@
     </main>
 </div>
 </body>
-
 </html>
