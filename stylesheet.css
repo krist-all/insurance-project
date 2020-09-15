@@ -146,7 +146,7 @@ section {
 }
 
 .main-container5 {
-    display: grid;
+    display: flex;
     grid-row: 3/4 grid-column: 3/4;
     background-color: #EBEBEB;
     grid-auto-flow: row;
