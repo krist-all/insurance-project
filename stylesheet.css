@@ -3,6 +3,14 @@
 }
 
 .wrapper {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1002px 1fr;
+    grid-template-rows: 612px 1972px 408px;
+    background-color: #E5E5E5;
+}
+
+.wrapper2 {
     display: flex;
     max-width: 100%;
     justify-content: center;
@@ -10,6 +18,7 @@
     grid-template-rows: 612px 1972px 408px; */
     background-color: #E5E5E5;
 }
+
 
 .grid-item1 {
     display: grid;
