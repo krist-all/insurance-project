@@ -317,3 +317,68 @@ a {
     text-decoration: none;
 }
 
+.contact_input {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+}
+
+.contact_input_email_container {
+    display: grid;
+    grid-area: 1/2/1/2;
+}
+
+.contact_input_message_container {
+    display: grid;
+    grid-area: 2/2/2/2;
+}
+
+.contact_input_button {
+    display: grid;
+    grid-area: 3/2/3/2;
+}
+
+.contact_input_header {
+    display: grid;
+    grid-area: 1/1/1/1;
+}
+
+.contact_input_container_text {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    /* or 14px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.contact_input_container_form { /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
+    background: #FEFEFE;
+    border-radius: 2px;
+    height: 80%;
+}
+
+.contact_input_container_form_textarea {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    /* or 14px */
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.contact_input_button {
+    display: flex;
+  /*   align-self: center; */
+    align-items: center;
+   /*  justify-content: right; */
+    margin-top: 5%;
+    margin-left: 73.6%;
+
+}
