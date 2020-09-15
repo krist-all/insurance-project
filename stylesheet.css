@@ -10,6 +10,16 @@
     background-color: #E5E5E5;
 }
 
+.wrapper2 {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+/*     grid-template-columns: 1fr 1002px 1fr;
+    grid-template-rows: 612px 1972px 408px; */
+    background-color: #E5E5E5;
+}
+
+
 .grid-item1 {
     display: grid;
     max-width: 100%;
@@ -143,7 +153,12 @@ section {
 }
 
 .main-container5 {
+<<<<<<< HEAD
     grid-row: 3/4 grid-column: 3/4;
+=======
+    display: flex;
+    grid-row: 3/4; grid-column: 3/4;
+>>>>>>> b9ff4d9651aff63bd28571972a2a071cd6df7c26
     background-color: #EBEBEB;
     grid-auto-flow: row;
     
@@ -356,18 +371,18 @@ nav>ul>li {
 }
 
 .contact_input {
-    width: 1002px;
+    width: 100%;
     height: 544px;
-    left: 219px;
-    top: 408px;
+/*     left: 219px;
+    top: 408px; */
     background: #A9A19E;
 }
 
 .contact_map {
-    width: 1002px;
+    width: 100%;
     height: 407px;
-    left: 219px;
-    top: 952px;
+/*     left: 219px;
+    top: 952px; */
     background-color: brown;
     /* todo:find the right .png and remove the place holder brown */
     /*  background: url(.png); */
@@ -375,10 +390,10 @@ nav>ul>li {
 
 .contact_empty_footer {
     /* todo: find out why it's there while not holding a function */
-    width: 1002px;
+    width: 100%;
     height: 340px;
-    left: 219px;
-    top: 1359px;
+/*     left: 219px;
+    top: 1359px; */
     background: #777574;
 }
 
@@ -394,8 +409,7 @@ a {
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD a:hover {
+a:hover {
     color: black;
 }
 
@@ -403,7 +417,7 @@ a {
     padding-top: 20px;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
-=======
+}
 .contact_input {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(2, 1fr);
@@ -431,7 +445,6 @@ a {
 
 .contact_input_container_text {
     font-family: Fira Sans;
->>>>>>> dd3c3650782f804cc8b9330fd6fc2ad72f99fb5f
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -444,9 +457,7 @@ a {
     opacity: 0.7;
 }
 
-<<<<<<< HEAD
-=======>>>>>>>8470fd132acab0300e1a3723aee4f9496619fc48
-=======
+
 .contact_input_container_form { /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
     background: #FEFEFE;
     border-radius: 2px;
@@ -462,16 +473,9 @@ a {
     /* or 14px */
     letter-spacing: -0.02em;
     color: #000000;
-<<<<<<< HEAD
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
-   /*  margin: 3%; */
-=======
->>>>>>> parent of dd3c365... Update stylesheet.css
-=======
-    margin: 3%;
->>>>>>> parent of efaca7b... Update stylesheet.css
+/*     margin: 3%; */
 }
 
 .contact_input_button {
@@ -482,9 +486,6 @@ a {
     margin-top: 5%;
     margin-left: 73.6%;
 
-<<<<<<< HEAD
-}
-=======
 }
 
 .contact_input_header {
@@ -513,5 +514,3 @@ color: #FFFFFF;
   border-radius: 4px;
   background-color: #f8f8f8;
 } */
->>>>>>> dd3c3650782f804cc8b9330fd6fc2ad72f99fb5f
->>>>>>> parent of efaca7b... Update stylesheet.css
