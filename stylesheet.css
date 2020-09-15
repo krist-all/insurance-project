@@ -349,25 +349,33 @@ nav>ul>li {
 
 .contact_header {
     /* todo: want to clean up the grid */
-/*     width: 100%;
-    height: 340px; */
+/*     width: 100%;*/
+    height: 340px; 
     /* todo: fix height to be dynamic */
     display: grid;
     max-width: 100%;
     background: #C7DDEA;
     grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+    /* grid-column: 3; */
 }
 
 .contact_header_text {
     /* todo: fit text to box in " oh hello there" or check i they want it to be dynamic */
     display: grid;
     grid-area: 5 / 4 / 7 / 6;
+   /*  grid-column-start: 2; */
     font-weight: 900;
     /* reminder:it won't fit that well beacuse i designate the size of the text */
     font-size: 45px;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #000000;
+}
+
+.contact_header_img {
+    display: grid;
+    grid-area: 7 / 6 / 8 / 8;
+    background-image: url(WebsiteMuscleMan.png);
 }
 
 .contact_input {
@@ -379,13 +387,14 @@ nav>ul>li {
 }
 
 .contact_map {
-    width: 100%;
+    width: 92%; /* reminder: the reduced width fixes the padding issue with the yellow box */
     height: 407px;
 /*     left: 219px;
     top: 952px; */
-    background-color: brown;
+    padding: 4%;
+    /* background-color: brown; */
     /* todo:find the right .png and remove the place holder brown */
-    /*  background: url(.png); */
+     background: url(Map.png);
 }
 
 .contact_empty_footer {
@@ -455,13 +464,20 @@ a:hover {
     letter-spacing: -0.02em;
     color: #FFFFFF;
     opacity: 0.7;
+    height: 150%
 }
 
 
-.contact_input_container_form { /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
-    background: #FEFEFE;
+.contact_input_container_form1 { /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
+    /* background: #FEFEFE; */
     border-radius: 2px;
-    height: 80%;
+    height: 40%;
+}
+
+.contact_input_container_form2 { /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
+    /* background: #FEFEFE; */
+    border-radius: 2px;
+    height: 100%;
 }
 
 .contact_input_container_form_textarea {
@@ -473,7 +489,7 @@ a:hover {
     /* or 14px */
     letter-spacing: -0.02em;
     color: #000000;
-    width: 100%;
+    width: 80%;
     height: 100%;
 /*     margin: 3%; */
 }
@@ -482,10 +498,10 @@ a:hover {
     display: flex;
   /*   align-self: center; */
     align-items: center;
+    justify-content: center;
    /*  justify-content: right; */
     margin-top: 5%;
-    margin-left: 73.6%;
-
+    margin-left: 55.7%;
 }
 
 .contact_input_header {
@@ -503,6 +519,8 @@ line-height: 100%;
 letter-spacing: -0.02em;
 
 color: #FFFFFF;
+margin-right: 28%;
+margin-top: 19%;
 }
 
 /* textarea { just here for testing purposes
@@ -514,3 +532,40 @@ color: #FFFFFF;
   border-radius: 4px;
   background-color: #f8f8f8;
 } */
+
+.contact_map_text_box {
+    display: grid;
+    grid-template-rows: 2;
+    width: 323px;
+    height: 206px;
+    left: 305px;
+    top: 997px;
+    background: #FAB131;
+}
+
+.contact_map_text_large {
+    margin: 6%;
+    font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 100%;
+/* identical to box height, or 45px */
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+} 
+.contact_map_text_small {
+    margin: 6%;
+    font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: rgba(255, 255, 255, 0.8);
+}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- todo: email him if they want it to be dynamic -->
 
 <head>
     <link rel="stylesheet" href="stylesheet.css">
@@ -14,6 +13,7 @@
     <main>
         <header class="contact_header">
             <h1 class="contact_header_text">Oh hello there!</h1>
+            <img class="contact_header_img">
         </header>
         <nav class="navbar">
             <ul class="navbar_list">
@@ -23,23 +23,25 @@
                 <li><a name="navbar_item" href="ContactPage.html">Contact</a></li>
             </ul>
         </nav>
-        <section class="contact_input"><!-- todo: Write the right class name for input -->
+        <section class="contact_input">
         <section class="contact_input_header">What's on your <br> mind?</section>
         <section class="contact_input_email_container">
             <h3 class="contact_input_container_text">Your email</h3>
-            <form class="contact_input_container_form"><textarea></textarea></form>
+            <form class="contact_input_container_form1"><textarea class="contact_input_container_form_textarea"></textarea></form>
         </section>
         <section class="contact_input_message_container">
             <h3 class="contact_input_container_text">Your message</h3>
-            <form class="contact_input_container_form">
+            <form class="contact_input_container_form2">
                 <textarea class="contact_input_container_form_textarea">Dear Insurance company...</textarea>
             </form>
-        </section>
-        <button class="contact_input_button">SEND MESSAGE</button>
-        
-        </section>
+        </section><button class="contact_input_button">SEND MESSAGE</button></section>
         <article class="contact_map">
-            <article class="contact_map_text"></article>
+            <article class="contact_map_text_box_container">
+                <section class="contact_map_text_box">
+                <h2 class="contact_map_text_large">Come visit us!</h2>
+                <h3 class="contact_map_text_small">2219 Griffin Street <br> San Francisco</h3>
+            </section>
+            </article>
             <aside class="contact_map_position_marker"></aside>
         </article>
         <div class="contact_empty_footer"></div>
