@@ -14,8 +14,6 @@
     display: flex;
     max-width: 100%;
     justify-content: center;
-/*     grid-template-columns: 1fr 1002px 1fr;
-    grid-template-rows: 612px 1972px 408px; */
     background-color: #E5E5E5;
 }
 
@@ -34,8 +32,6 @@
     max-width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 612px 680px 1fr 1fr;
-    /* grid-row: 2/3;
-    grid-column: 2/3; */
     grid-row: 2/3;
     grid-column: 2/3;
 }
@@ -91,15 +87,18 @@ section {
     background-color: #A9A19E;
     
 }
+
 .heading-box1 {
     width: 314px;
     height: 101px;
     align-self: center;
     margin-top: 60px;
 }
+
 .heading-box1 h1 {
     text-align: left;
 }
+
 .para-box1 {
     width: 280px;
     height: 103px;
@@ -134,9 +133,11 @@ section {
     color: white;
 
 }
+
 .heading-box3{
     margin-top: 90px;
 }
+
 .para-box2 {
     align-items: center;
     justify-content: center;
@@ -288,7 +289,6 @@ section {
     grid-row: 3/4; grid-column: 3/4;
     background-color: #EBEBEB;
     grid-auto-flow: row;
-    
 }
 
 .main-container6 {
@@ -296,7 +296,6 @@ section {
     grid-column: 1/2;
     background-color: #FFFFFF;
     grid-auto-flow: row;
-    
 }
 
 .main-container7 {
@@ -304,7 +303,6 @@ section {
     grid-column: 2/3;
     background-color: #F17949;
     grid-auto-flow: row;
-    
 }
 
 .main-container8 {
@@ -312,7 +310,6 @@ section {
     grid-column: 3/4;
     background-color: #FFFFFF;
     grid-auto-flow: row;
-   
 }
 
 .number-box {
@@ -328,9 +325,7 @@ section {
     font-style: normal;
     font-weight: 900;
     font-size: 35px;
-    /* or 35px */
     letter-spacing: -0.02em;
-    /* margin: 2rem; */
     color: rgba(0, 0, 0, 0.4);
 }
 
@@ -349,9 +344,8 @@ section {
 
 .heading-align {
     text-align: left;
-
-
 }
+
 h1 {
     font-family: Frank Ruhl Libre;
     font-style: normal;
@@ -436,7 +430,6 @@ nav>ul>li {
 }
 
 .navbar {
-    /* todo: check that we're suppose to adjust for what's most efficent or just as it says */
     display: flex;
     flex-direction: row;
     height: 68px;
@@ -460,7 +453,7 @@ nav>ul>li {
     margin: 0  15%  0  15%;
     padding: 0;
     opacity: 0.4;
-    /* need to doubble check if i'm just fooling my self */
+    /* need to doubble check if the color is of or i'm just fooling my self */
     color: #000000;
 }
 
@@ -471,21 +464,18 @@ nav>ul>li {
 
 .contact_header {
     /* todo: want to clean up the grid */
-/*     width: 100%;*/
     height: 340px; 
     /* todo: fix height to be dynamic */
     display: grid;
     max-width: 100%;
     background: #C7DDEA;
     grid-template: repeat(8, 1fr) / repeat(8, 1fr);
-    /* grid-column: 3; */
 }
 
 .contact_header_text {
     /* todo: fit text to box in " oh hello there" or check i they want it to be dynamic */
     display: grid;
     grid-area: 5 / 4 / 7 / 6;
-   /*  grid-column-start: 2; */
     font-weight: 900;
     /* reminder:it won't fit that well beacuse i designate the size of the text */
     font-size: 45px;
@@ -504,19 +494,13 @@ nav>ul>li {
 .contact_input {
     width: 100%;
     height: 544px;
-/*     left: 219px;
-    top: 408px; */
     background: #A9A19E;
 }
 
 .contact_map {
     width: 92%; /* reminder: the reduced width fixes the padding issue with the yellow box */
     height: 407px;
-/*     left: 219px;
-    top: 952px; */
     padding: 4%;
-    /* background-color: brown; */
-    /* todo:find the right .png and remove the place holder brown */
      background: url(Map.png);
 }
 
@@ -524,16 +508,8 @@ nav>ul>li {
     /* todo: find out why it's there while not holding a function */
     width: 100%;
     height: 340px;
-/*     left: 219px;
-    top: 1359px; */
     background: #777574;
 }
-
-
-
-
-
-
 
 a {
     color:gray;
@@ -578,7 +554,6 @@ a:hover {
     font-weight: bold;
     font-size: 14px;
     line-height: 100%;
-    /* or 14px */
     display: flex;
     align-items: center;
     letter-spacing: -0.02em;
@@ -591,14 +566,12 @@ a:hover {
 
 
 .contact_input_container_form1 { /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
-    /* background: #FEFEFE; */
     border-radius: 2px;
     height: 20%;
     margin-bottom: -14%;
 }
 
 .contact_input_container_form2 { /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
-    /* background: #FEFEFE; */
     border-radius: 2px;
     height: 94%;
 }
@@ -609,23 +582,18 @@ a:hover {
     font-weight: normal;
     font-size: 14px;
     line-height: 100%;
-    /* or 14px */
     letter-spacing: -0.02em;
     color: #000000;
     width: 80%;
     height: 100%;
-    /* margin: 3%; */
     padding: 3%;
 }
 
 .contact_input_button {
     display: flex;
-  /*   align-self: center; */
     align-items: center;
     justify-content: center;
-   /*  justify-content: right; */
     margin-top: 12%;
-    /* margin-left: 57%; */
     display: grid;
     grid-area: 3/2/3/2;
     justify-self: right;
@@ -637,29 +605,15 @@ a:hover {
     align-self: center;
     justify-self: center;
     font-family: Frank Ruhl Libre;
-
     font-style: normal;
     font-weight: 900;
     font-size: 45px;
-line-height: 100%;
-/* or 45px */
-
-letter-spacing: -0.02em;
-
-color: #FFFFFF;
-margin-right: 28%;
-margin-top: 19%;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-right: 28%;
+    margin-top: 19%;
 }
-
-/* textarea { just here for testing purposes
-    width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-} */
 
 .contact_map_text_box {
     display: grid;
@@ -674,27 +628,22 @@ margin-top: 19%;
 .contact_map_text_large {
     margin: 6%;
     font-family: Frank Ruhl Libre;
-font-style: normal;
-font-weight: 900;
-font-size: 45px;
-line-height: 100%;
-/* identical to box height, or 45px */
-margin-bottom: -21%;
-margin-top: -9%;
-letter-spacing: -0.02em;
-
-color: #FFFFFF;
-
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    margin-bottom: -21%;
+    margin-top: -9%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 } 
+
 .contact_map_text_small {
     margin: 6%;
     font-family: Fira Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-/* margin-bottom: 2%; */
-/* padding-bottom: 2%; */
-color: rgba(255, 255, 255, 0.8);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.8);
 }
