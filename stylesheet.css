@@ -541,8 +541,8 @@ a:hover {
     align-items: center;
     justify-content: center;
    /*  justify-content: right; */
-    /* margin-top: 8%;
-    margin-left: 57%; */
+    margin-top: 12%;
+    /* margin-left: 57%; */
     display: grid;
     grid-area: 3/2/3/2;
     justify-self: right;
