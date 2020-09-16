@@ -638,3 +638,22 @@ a:hover {
     line-height: 24px;
     color: rgba(255, 255, 255, 0.8);
 }
+
+.index_container1_familypicture {
+    display: flex;
+    /* grid-area: 2 / 7 / 9 / 9; */
+    justify-content: right;
+    align-self: flex-end;
+    width: 286px; 
+    height: 279px;
+}
+.picture-box-picture-size {
+    display: flex;
+    /* size: 20%; */
+   /*  height: 20%;
+    width: 20%;*/
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+} 
