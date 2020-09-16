@@ -85,7 +85,6 @@ section {
 .main-container1 {
     grid-column: 1/4;
     background-color: #A9A19E;
-    
 }
 
 .heading-box1 {
@@ -110,7 +109,6 @@ section {
     font-size: 14px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.6);
-
 }
 
 .heading-box2 h1 {
@@ -131,7 +129,6 @@ section {
 
 .heading-box3 h1 {
     color: white;
-
 }
 
 .heading-box3{
@@ -154,7 +151,6 @@ section {
     line-height: 24px;
     color: rgba(0, 0, 0, 0.6);
     justify-self: flex-end;
-    
 }
 
 .para-box3 {
@@ -177,8 +173,7 @@ section {
 
 .button2{
     margin-top: 60px;
-    margin-left: 100px;
-    
+    margin-left: 100px; 
 }
 
 .white-box{
@@ -196,18 +191,15 @@ section {
 
 }
 .white-box1 {
-    margin-left: 90px;
-    
+    margin-left: 90px;   
 }
 
 .white-box2 {
     margin-left: 375px;
-    
-
 }
+
 .white-box3 {
    margin-left: 660px;
-
 }
 
 .picture-box {
@@ -216,19 +208,16 @@ section {
     height: 150px;
     border-radius: 4px;
     margin-top: 420px;
-   
 }
 
 .picture-box1 {
     background-color: #C7DDEA;
     margin-left: 100px;
-    
 }
 
 .picture-box2 {
     background-color: #FAB131;
     margin-left: 385px;
-
 }
 
 .picture-box3 {
@@ -458,36 +447,30 @@ nav>ul>li {
     align-items: center;
     list-style-type: none;
     width: 100%;
-    height: 68px;
-    /* todo: fix height to be dynamic */
+    height: 68px; /* todo: fix height to be dynamic */
     margin: 0  15%  0  15%;
     padding: 0;
     opacity: 0.4;
-    /* need to doubble check if the color is of or i'm just fooling my self */
-    color: #000000;
+    color: #000000; /* need to doubble check if the color is of or i'm just fooling my self */
 }
 
 .navbar_list a:hover {
-    /* todo: fix the look to make it look darker, it just dosen't look right */
-    color: #000000;
+
+    color: #000000; /* todo: fix the look to make it look darker, it just dosen't look right */
 }
 
-.contact_header {
-    /* todo: want to clean up the grid */
-    height: 340px; 
-    /* todo: fix height to be dynamic */
+.contact_header { /* todo: want to clean up the grid */
+    height: 340px; /* todo: fix height to be dynamic */
     display: grid;
     max-width: 100%;
     background: #C7DDEA;
     grid-template: repeat(8, 1fr) / repeat(8, 1fr);
 }
 
-.contact_header_text {
-    /* todo: fit text to box in " oh hello there" or check i they want it to be dynamic */
+.contact_header_text {/* todo: fit text to box in " oh hello there" or check i they want it to be dynamic */
     display: grid;
     grid-area: 5 / 4 / 7 / 6;
-    font-weight: 900;
-    /* reminder:it won't fit that well beacuse i designate the size of the text */
+    font-weight: 900;/* reminder:it won't fit that well beacuse i designate the size of the text */
     font-size: 45px;
     line-height: 100%;
     letter-spacing: -0.02em;
