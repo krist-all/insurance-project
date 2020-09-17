@@ -418,6 +418,8 @@ button {
     line-height: 12px;
     align-items: center;
     text-align: center;
+    position: absolute;
+    margin-top: -54%;
 }
 
 nav>ul>li {
