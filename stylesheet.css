@@ -17,7 +17,6 @@
     background-color: #E5E5E5;
 }
 
-
 .grid-item1 {
     display: grid;
     max-width: 100%;
@@ -125,7 +124,7 @@ section {
     color: white;
 }
 
-.heading-box3{
+.heading-box3 {
     margin-top: 90px;
 }
 
@@ -157,14 +156,14 @@ section {
     margin-left: 80px;
 }
 
-.button2{
-    margin-top: 60px;
-    margin-left: 100px; 
+.button2 {
+    margin-left: 100px;
     position: absolute;
-    margin-top: -604px; /* reminder: this is a really bad fix for the button2 item */
+    margin-top: -604px;
+    /* reminder: this is a really bad fix for the button2 item */
 }
 
-.white-box{
+.white-box {
     position: absolute;
     width: 256px;
     height: 308px;
@@ -176,10 +175,10 @@ section {
     align-items: center;
     justify-content: center;
     margin-top: 600px;
-
 }
+
 .white-box1 {
-    margin-left: 90px;   
+    margin-left: 90px;
 }
 
 .white-box2 {
@@ -187,7 +186,7 @@ section {
 }
 
 .white-box3 {
-   margin-left: 660px;
+    margin-left: 660px;
 }
 
 .picture-box {
@@ -212,7 +211,7 @@ section {
 .picture-box3 {
     background-color: #F17949;
     margin-left: 670px;
-/*     background-image: url(img/old.png); */
+    /*     background-image: url(img/old.png); */
 }
 
 .white-box-heading {
@@ -226,15 +225,15 @@ section {
     margin-left: 25px;
 }
 
-.white-box-heading h6{
+.white-box-heading h6 {
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.9);
-    
 }
+
 .white-box-para {
     position: absolute;
     width: 214px;
@@ -275,7 +274,8 @@ section {
 
 .main-container5 {
     display: flex;
-    grid-row: 3/4; grid-column: 3/4;
+    grid-row: 3/4;
+    grid-column: 3/4;
     background-color: #EBEBEB;
     grid-auto-flow: row;
 }
@@ -364,7 +364,8 @@ h2 {
 h3 {
     font-family: Fira Sans;
     font-style: normal;
-    font-weight: 600; /* reminder: it says 500 font-weight but it dosn't look right */
+    font-weight: 600;
+    /* reminder: it says 500 font-weight but it dosn't look right */
     font-size: 17px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.7);
@@ -406,7 +407,6 @@ button {
     line-height: 12px;
     align-items: center;
     text-align: center;
-
 }
 
 nav>ul>li {
@@ -438,30 +438,36 @@ nav>ul>li {
     align-items: center;
     list-style-type: none;
     width: 100%;
-    height: 68px; /* todo: fix height to be dynamic */
-    margin: 0  15%  0  15%;
+    height: 68px;
+    /* todo: fix height to be dynamic */
+    margin: 0 15% 0 15%;
     padding: 0;
     opacity: 0.4;
-    color: #000000; /* need to doubble check if the color is of or i'm just fooling my self */
+    color: #000000;
+    /* need to doubble check if the color is of or i'm just fooling my self */
 }
 
 .navbar_list a:hover {
-
-    color: #000000; /* todo: fix the look to make it look darker, it just dosen't look right */
+    color: #000000;
+    /* todo: fix the look to make it look darker, it just dosen't look right */
 }
 
-.contact_header { /* todo: want to clean up the grid */
-    height: 340px; /* todo: fix height to be dynamic */
+.contact_header {
+    /* todo: want to clean up the grid */
+    height: 340px;
+    /* todo: fix height to be dynamic */
     display: grid;
     max-width: 100%;
     background: #C7DDEA;
     grid-template: repeat(8, 1fr) / repeat(8, 1fr);
 }
 
-.contact_header_text {/* todo: fit text to box in " oh hello there" or check i they want it to be dynamic */
+.contact_header_text {
+    /* todo: fit text to box in " oh hello there" or check i they want it to be dynamic */
     display: grid;
     grid-area: 5 / 4 / 7 / 6;
-    font-weight: 900;/* reminder:it won't fit that well beacuse i designate the size of the text */
+    font-weight: 900;
+    /* reminder:it won't fit that well beacuse i designate the size of the text */
     font-size: 45px;
     line-height: 100%;
     letter-spacing: -0.02em;
@@ -482,10 +488,11 @@ nav>ul>li {
 }
 
 .contact_map {
-    width: 92%; /* reminder: the reduced width fixes the padding issue with the yellow box */
+    width: 92%;
+    /* reminder: the reduced width fixes the padding issue with the yellow box */
     height: 407px;
     padding: 4%;
-     background: url(Map.png);
+    background: url(Map.png);
 }
 
 .contact_empty_footer {
@@ -496,7 +503,7 @@ nav>ul>li {
 }
 
 a {
-    color:gray;
+    color: gray;
     cursor: pointer;
     text-decoration: none;
 }
@@ -510,6 +517,7 @@ a:hover {
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
 }
+
 .contact_input {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(2, 1fr);
@@ -547,13 +555,15 @@ a:hover {
     margin-top: 3%;
 }
 
-.contact_input_container_form1 { /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
+.contact_input_container_form1 {
+    /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
     border-radius: 2px;
     height: 20%;
     margin-bottom: -14%;
 }
 
-.contact_input_container_form2 { /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
+.contact_input_container_form2 {
+    /* reminder: it does not look right and thet is right for the right reason don't left me behind right away */
     border-radius: 2px;
     height: 94%;
 }
@@ -620,7 +630,7 @@ a:hover {
     margin-top: -9%;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-} 
+}
 
 .contact_map_text_small {
     margin: 6%;
@@ -637,13 +647,14 @@ a:hover {
     /* grid-area: 2 / 7 / 9 / 9; */
     justify-content: right;
     align-self: flex-end;
-    width: 286px; 
+    width: 286px;
     height: 279px;
 }
+
 .picture-box-picture-size {
     display: flex;
     /* size: 20%; */
-   /*  height: 20%;
+    /*  height: 20%;
     width: 20%;*/
     /* height: inherit; reminder: this one makes them all fit in the box */
     height: 281%;
@@ -652,9 +663,8 @@ a:hover {
     width: auto;
     overflow: hidden;
     margin-top: 8%;
-    
-/*     clip: rect(0px, 235px, 150px, 0px); reminder testing pourpose*/
-} 
+    /*     clip: rect(0px, 235px, 150px, 0px); reminder testing pourpose*/
+}
 
 .picture-box-picture-size-kid-kid {
     height: 122%;
@@ -676,4 +686,104 @@ a:hover {
 .footer-container-text {
     font-weight: 800;
     color: rgba(0, 0, 0);
+}
+
+@media only screen and (max-width: 414px) {
+    .wrapper {
+        position: relative;
+        width: 375px;
+        height: 4758px;
+        background: #EBEBEB;
+    }
+    .header-container1 {
+        width: 375px;
+        height: 780px;
+        flex-direction: column;
+    }
+    .button2 {
+        position: static;
+        margin-top: 55px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+    .header-container2 {
+        position: absolute;
+        width: 375px;
+        height: 315px;
+        left: 0px;
+        top: 724px;
+    }
+    .header-container3 {
+        position: absolute;
+        width: 375px;
+        height: 315px;
+        left: 0px;
+        top: 427px;
+    }
+    .main-container1 {
+        position: absolute;
+        width: 375px;
+        height: 1580px;
+        left: 0px;
+        top: 1354px;
+    }
+    .main-container2 {
+        position: absolute;
+        width: 375px;
+        height: 550px;
+        left: 0px;
+        top: 2934px;
+        background: #FAB131;
+    }
+    .main-container3 {
+        position: absolute;
+        width: 375px;
+        height: 170px;
+        left: 0px;
+        top: 3484px;
+        background: #C7DDEA;
+    }
+    .main-container4 {
+        position: absolute;
+        width: 375px;
+        height: 170px;
+        left: 0px;
+        top: 3654px;
+        background: #FFFFFF;
+    }
+    .main-container5 {
+        position: absolute;
+        width: 375px;
+        height: 170px;
+        left: 0px;
+        top: 3824px;
+        background: #EBEBEB;
+    }
+    .heading-align {
+        position: absolute;
+        width: 342px;
+        height: 140px;
+        left: 16px;
+        top: 1391px;
+    }
+    .index_container1_familypicture {
+        width: 330px;
+        height: auto;
+        align-self: center;
+    }
+    .grid-item-nav {
+        display: none;
+    }
+    .heading-box2 h1 {
+        position: static;
+        margin-left: 15px;
+        margin-top: 15px;
+        justify-content: flex-start;
+    }
+    .para-box2 {
+        margin: 0;
+        padding-left: 15px;
+        width: 320px;
+        margin-top: 160px;
+    }
 }
