@@ -224,6 +224,7 @@ section {
 .picture-box3 {
     background-color: #F17949;
     margin-left: 670px;
+    background-image: url(img/old.png);
 }
 
 .white-box-heading {
@@ -660,9 +661,15 @@ a:hover {
     width: auto;
     overflow: hidden;
     margin-top: 8%;
+    
 /*     clip: rect(0px, 235px, 150px, 0px); reminder testing pourpose*/
 } 
 
 .picture-box-picture-size-kid-kid {
     height: 122%;
+}
+
+.picture-old {
+    background-image: url(/img/old.png);
+    background-repeat: no-repeat;
 }
