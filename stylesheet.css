@@ -208,6 +208,7 @@ section {
     height: 150px;
     border-radius: 4px;
     margin-top: 420px;
+    overflow: hidden;
 }
 
 .picture-box1 {
@@ -652,8 +653,15 @@ a:hover {
     /* size: 20%; */
    /*  height: 20%;
     width: 20%;*/
-    height: inherit;
+    /* height: inherit; reminder: this one makes them all fit in the box */
+    height: 332%;
     margin-left: auto;
     margin-right: auto;
     width: auto;
+    overflow: hidden;
+/*     clip: rect(0px, 235px, 150px, 0px); reminder testing pourpose*/
 } 
+
+.picture-box-picture-size-kid-kid {
+    height: 143%;
+}
