@@ -224,7 +224,7 @@ section {
 .picture-box3 {
     background-color: #F17949;
     margin-left: 670px;
-    background-image: url(img/old.png);
+/*     background-image: url(img/old.png); */
 }
 
 .white-box-heading {
@@ -669,7 +669,7 @@ a:hover {
     height: 122%;
 }
 
-.picture-old {
+/* .picture-old {
     background-image: url(/img/old.png);
     background-repeat: no-repeat;
-}
+} */
