@@ -103,12 +103,12 @@ section {
     height: 103px;
     align-self: center;
     margin-right: 40px;
-    font-family: 'Fira Sans', sans-serif;
+/*     font-family: 'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6); */
 }
 
 .heading-box2 h1 {
@@ -144,12 +144,12 @@ section {
     width: 280px;
     height: 237px;
     flex-direction: column;
-    font-family: 'Fira Sans', sans-serif;
+/*     font-family: 'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6); */
     justify-self: flex-end;
 }
 
@@ -157,13 +157,13 @@ section {
     width: 442px;
     height: 280px;
     margin-top: 30px;
-    font-family: 'Fira Sans', sans-serif;
+   /*  font-family: 'Fira Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.6);
-    text-align: center;
+    text-align: center; */
 }
 
 .button1 {
@@ -175,7 +175,7 @@ section {
     margin-top: 60px;
     margin-left: 100px; 
     position: absolute;
-    margin-top: -604px;
+    margin-top: -604px; /* reminder: this is a really bad fix for the button2 item */
 }
 
 .white-box{
@@ -378,7 +378,7 @@ h2 {
 h3 {
     font-family: Fira Sans;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600; /* reminder: it says 500 font-weight but it dosn't look right */
     font-size: 17px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.7);
@@ -672,7 +672,20 @@ a:hover {
     height: 122%;
 }
 
-/* .picture-old {
-    background-image: url(/img/old.png);
-    background-repeat: no-repeat;
-} */
+.para-box-text-p {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0);
+}
+
+.para-box-text-p-white {
+    color: white;
+}
+
+.footer-container-text {
+    font-weight: 800;
+    color: rgba(0, 0, 0);
+}
