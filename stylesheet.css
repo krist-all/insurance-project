@@ -118,7 +118,7 @@ section {
     color: #FFFFFF;
     font-family: Frank Ruhl Libre;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 2.813em;
     line-height: 100%;
     letter-spacing: -0.02em
 }
@@ -232,7 +232,7 @@ section {
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.000em;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.9);
 }
@@ -245,7 +245,7 @@ section {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 0.688em;
     line-height: 18px;
   /*  margin-top: 175px;
     margin-left: 20px;*/
@@ -337,7 +337,7 @@ h1 {
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 2.813em;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: black;
@@ -352,7 +352,7 @@ h2 {
     font-family: 'Frank Ruhl Libre', serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 2.000em;
     display: flex;
     align-items: center;
     text-align: center;
@@ -364,7 +364,7 @@ h3 {
     font-style: normal;
     font-weight: 600;
     /* reminder: it says 500 font-weight but it dosn't look right */
-    font-size: 17px;
+    font-size: 1.063em;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.7);
 }
@@ -373,7 +373,7 @@ h5 {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 0.688em;
     line-height: 13px;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -401,7 +401,7 @@ button {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 0.625em;
     line-height: 12px;
     align-items: center;
     text-align: center;
@@ -414,7 +414,7 @@ nav>ul>li {
     padding-left: 55px; */
     font-family: Fira Sans;
     font-style: normal;
-    font-size: 12px;
+    font-size: 0.750em;
 }
 
 .navbar {
@@ -466,7 +466,7 @@ nav>ul>li {
     grid-area: 5 / 4 / 7 / 6;
     font-weight: 900;
     /* reminder:it won't fit that well beacuse i designate the size of the text */
-    font-size: 45px;
+    font-size: 2.813em;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #000000;
@@ -541,7 +541,7 @@ a:hover {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 100%;
     display: flex;
     align-items: center;
@@ -569,7 +569,7 @@ a:hover {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #000000;
@@ -598,7 +598,7 @@ a:hover {
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 2.813em;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #FFFFFF;
@@ -621,7 +621,7 @@ a:hover {
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 2.813em;
     line-height: 100%;
     margin-bottom: -21%;
     margin-top: -9%;
@@ -634,7 +634,7 @@ a:hover {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.8);
 }
