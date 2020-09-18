@@ -130,8 +130,9 @@ section {
 .content-container {
     display: block;
     min-height: 500px ;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }
 
 
