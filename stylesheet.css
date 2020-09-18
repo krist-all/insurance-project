@@ -133,6 +133,7 @@ section {
     display: grid;
     /* flex-wrap: wrap; */
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    margin: 0% 10% -3% 1%;
 }
 
 
