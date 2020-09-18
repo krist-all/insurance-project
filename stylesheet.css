@@ -746,6 +746,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 414px) {
+    * {
+        padding: 0%;
+    }
     .grid-item {
         display: flex;
         /* grid-template-columns: 1fr;
@@ -817,7 +820,7 @@ a:hover {
         margin: 0%
     }
     .para-box-text-p-padding-top {
-        padding-top: 0%;
+        padding: 24% 3%;
     }
     .button1-flex-flow-container {
         display: none;
@@ -838,6 +841,15 @@ a:hover {
         min-width: 100%;
         margin: 10% 0%;
     }
+    .white-box-heading {
+        max-width: 414px;
+        padding: 3% 10% 0 10%;
+    }
+    .white-box-para {
+        max-width: 414px;
+        width: 97%;
+        padding: 7% 3% 3% 2%;
+    }
     .main-container2 {
         margin-top: 0%;
     }
@@ -846,6 +858,12 @@ a:hover {
     }
     .navbar.navbar-mainpage {
         display: none;
+    }
+    .picture-box {
+        max-width: 414px;
+    }
+    .heading-box2 h1 {
+        padding: 12% 3%;
     }
 }
 
