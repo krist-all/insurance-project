@@ -9,7 +9,7 @@ body{
 .wrapper {
     display: grid;
     max-width: 100%;
-    grid-template-columns: 1fr 60% 1fr;
+    grid-template-columns: 1fr 75% 1fr;
     grid-template-rows: 25% 80% 15%;
     background-color: #E5E5E5;
 }
@@ -233,7 +233,7 @@ section {
     font-style: normal;
     font-weight: bold;
     font-size: 1.000em;
-    line-height: 20px;
+    line-height: 1.250em;
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -246,7 +246,7 @@ section {
     font-style: normal;
     font-weight: bold;
     font-size: 0.688em;
-    line-height: 18px;
+    line-height: 1.125em;
   /*  margin-top: 175px;
     margin-left: 20px;*/
     color: rgba(0, 0, 0, 0.4);
@@ -304,11 +304,11 @@ section {
 }
 
 .number-box {
-    /*position: absolute;
-    width: 100px;
-    height: 100px;*/
+    /*position: absolute;*/
+    width: 100%;
+    height: 11%;
     display: flex;
-    text-align: center;
+   /*  text-align: center; */
     letter-spacing: -0.02em;
     padding: 3%;
     font-family: Frank Ruhl Libre;
@@ -318,15 +318,13 @@ section {
 
 .text-box {
     display: flex;
-   /* width: 257px;
-    height: 113px;*/
-    align-content: center;
+    width: 100%;
+    height: 11%;
+    /* align-content: center; */
+    /* align-content: center; */
     justify-content: center;
     text-align: center;
     align-self: center;
-    justify-self: center;
-  /*  padding-left: 30px;
-    padding-top: 40px; */
 }
 
 .heading-align {
@@ -365,7 +363,7 @@ h3 {
     font-weight: 600;
     /* reminder: it says 500 font-weight but it dosn't look right */
     font-size: 1.063em;
-    line-height: 20px;
+    line-height: 1.250em;
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -635,7 +633,7 @@ a:hover {
     font-style: normal;
     font-weight: 500;
     font-size: 0.875em;
-    line-height: 24px;
+    line-height: 1.500em;
     color: rgba(255, 255, 255, 0.8);
 }
 
