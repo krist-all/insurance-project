@@ -28,14 +28,14 @@ body {
 
 .grid-item1 {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: minmax(544px) 45% 45% 1fr;
+    grid-template-rows: 45% 45% 1fr;
     grid-row: 1/2;
     grid-column: 2/3;
 }
 
 .grid-item2 {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: minmax(680px) 25% 30% 1fr 1fr;
+    grid-template-rows: 25% 30% 1fr 1fr;
     grid-row: 2/3;
     grid-column: 2/3;
 }
@@ -70,6 +70,7 @@ section {
     grid-column: 1/2;
     background-color: #C7DDEA;
     flex-direction: column;
+    padding-top: 15%;
 }
 
 .header-container2 .header-container3 {
@@ -115,7 +116,6 @@ section {
 .heading-box2 h1 {
     align-items: center;
     justify-content: center;
-    position: absolute;
     max-width: 340px;
     max-height: 140px;
     color: #FFFFFF;
@@ -130,7 +130,10 @@ section {
     color: white;
 }
 
-.heading-box3 {}
+.heading-box3 {
+    padding: 3%;
+
+}
 
 .para-box2 {
     align-items: center;
@@ -156,7 +159,10 @@ section {
 }
 
 .button2 {
-    /* reminder: this is a really bad fix for the button2 item */
+    margin-top: 5%;
+    margin-left: 30%;
+
+
 }
 
 .white-box {
