@@ -153,16 +153,16 @@ section {
 .para-box2 {
     align-items: center;
     justify-content: center;
-    max-width: 280px;
-    min-height: 237px;
+    max-width: 17.500em;
+    min-height: 14.813em;
     flex-direction: column;
     justify-self: flex-end;
     align-self: flex-start;
 }
 
 .para-box3 {
-    max-width: 442px;
-    max-height: 280px;
+    max-width: 27.625em;
+    max-height:17.500em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,11 +201,9 @@ section {
 .white-box1 {
     right: 17%;
 }
-
 .white-box2 {
     right: 15%;
 }
-
 .white-box3 {
     right: 13%;
 }
@@ -386,6 +384,9 @@ h3 {
     font-size: 1.063em;
     line-height: 1.250em;
     color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-self: center;
+    padding-right: 115%;
 }
 
 h5 {
@@ -698,9 +699,10 @@ a:hover {
 
 @media only screen and (max-width: 414px) {
     .grid-item {
-        display: block;
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr 1fr 1fr;
+        display: flex;
+        /* grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 1fr; */
+        flex-flow: column;
     }
     .header-container1 {
         width: 100%;
@@ -708,40 +710,53 @@ a:hover {
     .header-container2 {
         height: 18%;
     }
-    
     .header-container3 {
         height: 18%;
     }
-    
     .grid-item-nav {
         display: none;
     }
-    
-    .main-container3 {
-        height: 5%;
+    .wrapper {
+    display: flex;
+    max-width: 100%;
+    /* grid-template-columns: 100%; */
+    /* grid-template-rows: 25% 80% 15%; */
+    flex-flow: column;
     }
-    
-    .main-container4 {
-        height: 5%;
+    .main-container1 {
+        display: flex;
+        flex-flow: column;
     }
-    
-    .main-container5 {
-        height: 5%;
+    .heading-box2 {
+        align-self: center;
     }
-    
-    .main-container6 {
-        height: 5%;
+    .button1 {
+        display: none;
     }
-    
-    .main-container7 {
-        height: 5%;
+    .para-box-text-p {
+        font-size: 0.875em;
+        line-height: 1.500em;
     }
-    
-    .main-container8 {
-        height: 5%;
+    .para-box2 {
+        display: flex;
+        align-self: center;
+    }
+    .para-box3 {
+
+
+    }
+    .main-boxes {
+        height: 10.625em;
+    }
+    .footer-container1 {
+        display: none;
+        min-height: 0%;
+    }
+    .main-container2 {
+        min-height: 493px;
+        padding: 6%;
     }
 }
-
 
 
 /* @media only screen and (max-width: 414px){
