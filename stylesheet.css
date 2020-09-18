@@ -194,13 +194,14 @@ section {
 }
 .white-box-container {
     display: flex;
-    min-width: 700px;
+    width: 100%;
     max-height: 308px;
     align-content: space-between;
-    justify-content: space-between;
+    justify-content: space-around;
     align-self: center;
     justify-self: center;
     /* margin-left: 10%; */
+    margin-bottom: -1%;
 }
 .white-box {
     max-width: 256px;
@@ -240,10 +241,11 @@ section {
     overflow: hidden;
     align-self: center;
     justify-self: center;
-    padding: 1%;
+ /*    padding: 1%; */
 /*     margin-top: -104%;
     margin-right: -8%; */
     width: 90%;
+    margin: -10% 2% 10% 4%;
 }
 
 .picture-box1 {
