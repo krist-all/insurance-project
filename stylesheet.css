@@ -766,7 +766,7 @@ a:hover {
     }
     .wrapper {
     display: flex;
-    max-width: 100%;
+    width: 100%;
     /* grid-template-columns: 100%; */
     /* grid-template-rows: 25% 80% 15%; */
     flex-flow: column;
@@ -840,6 +840,12 @@ a:hover {
     }
     .main-container2 {
         margin-top: 0%;
+    }
+    .navbar {
+        display: none;
+    }
+    .navbar.navbar-mainpage {
+        display: none;
     }
 }
 
