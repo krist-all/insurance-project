@@ -306,32 +306,31 @@ section {
 
 .number-box {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 11%;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     letter-spacing: -0.02em;
-    padding: 20px;
+    padding: 3%;
     font-family: Frank Ruhl Libre;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 35px;
-    letter-spacing: -0.02em;
+    /* font-style: normal; */
+    /* font-weight: 900; */
+    font-size: 200%;
     color: rgba(0, 0, 0, 0.4);
 }
 
 .text-box {
     display: flex;
-    width: 257px;
-    height: 113px;
-    align-content: center;
+    width: 100%;
+    height: 11%;
+    /* align-content: center; */
     justify-content: center;
     text-align: center;
     align-self: center;
-    justify-self: center;
+    /* justify-self: center;
     padding-left: 30px;
-    padding-top: 40px;
+    padding-top: 40px; */
 }
 
 .heading-align {
@@ -675,10 +674,10 @@ a:hover {
 
 .para-box-text-p {
     font-family: Fira Sans;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 600;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 87%;
+    line-height: 179%;
     color: rgba(0, 0, 0);
 }
 
