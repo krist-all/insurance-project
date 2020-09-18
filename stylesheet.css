@@ -2,14 +2,16 @@
     margin: 0%;
 }
 
+body{
+    background-color: #E5E5E5;
+
+}
 .wrapper {
     display: grid;
     max-width: 100%;
-    grid-template-columns: 1fr 1002px 1fr;
-    grid-template-rows: 612px 1972px 408px;
+    grid-template-columns: 1fr 60% 1fr;
+    grid-template-rows: 25% 80% 15%;
     background-color: #E5E5E5;
-    padding-left: 6%;
-    padding-right: 6%;
 }
 
 .wrapper2 {
@@ -26,21 +28,21 @@
 
 .grid-item1 {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 46% 46% 1fr;
+    grid-template-rows: 45% 45% 1fr;
     grid-row: 1/2;
     grid-column: 2/3;
 }
 
 .grid-item2 {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 612px 680px 1fr 1fr;
+    grid-template-rows: 25% 30% 1fr 1fr;
     grid-row: 2/3;
     grid-column: 2/3;
 }
 
 .grid-item3 {
     grid-template-columns: 1fr;
-    grid-template-rows: 68px 1fr;
+    grid-template-rows: 20% 1fr;
     grid-row: 3/4;
     grid-column: 2/3;
 }
@@ -88,10 +90,10 @@ section {
 }
 
 .heading-box1 {
-    width: 314px;
-    height: 101px;
+    /*width: 314px;
+    height: 101px;*/
     align-self: center;
-    margin-top: 60px;
+   /* margin-top: 60px;*/
 }
 
 .heading-box1 h1 {
@@ -99,20 +101,20 @@ section {
 }
 
 .para-box1 {
-    width: 280px;
-    height: 103px;
+    /*width: 280px;
+    height: 103px;*/
     align-self: center;
-    margin-right: 40px;
+   /* margin-right: 40px;*/
 }
 
 .heading-box2 h1 {
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-top: 60px;
-    margin-left: 50px;
+   /* margin-top: 60px;
+    margin-left: 50px; 
     width: 340px;
-    height: 140px;
+    height: 140px; */
     color: #FFFFFF;
     font-family: Frank Ruhl Libre;
     font-weight: 900;
@@ -126,25 +128,25 @@ section {
 }
 
 .heading-box3 {
-    margin-top: 90px;
+   /* margin-top: 90px;*/
 }
 
 .para-box2 {
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-top: 80px;
-    margin-left: 600px;
-    width: 280px;
-    height: 237px;
+    /*margin-top: 80px;
+    margin-left: 600px; */
+    /*width: 280px;
+    height: 237px;*/
     flex-direction: column;
     justify-self: flex-end;
 }
 
 .para-box3 {
-    width: 442px;
+  /*  width: 442px;
     height: 280px;
-    margin-top: 30px;
+    margin-top: 30px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,20 +156,20 @@ section {
 
 .button1 {
     align-self: center;
-    margin-left: 80px;
+    /*margin-left: 80px;*/
 }
 
 .button2 {
-    margin-left: 100px;
+   /* margin-left: 100px;
     position: absolute;
     margin-top: -604px;
     /* reminder: this is a really bad fix for the button2 item */
 }
 
 .white-box {
-    position: absolute;
+    /*position: absolute;
     width: 256px;
-    height: 308px;
+    height: 308px;*/
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -175,9 +177,9 @@ section {
     justify-self: center;
     align-items: center;
     justify-content: center;
-    margin-top: 600px;
+    /*margin-top: 600px;*/
 }
-
+/*
 .white-box1 {
     margin-left: 90px;
 }
@@ -189,40 +191,41 @@ section {
 .white-box3 {
     margin-left: 660px;
 }
-
+*/
 .picture-box {
-    position: absolute;
-    width: 236px;
-    height: 150px;
+    /*position: absolute;*/
+    /*width: 236px;
+    height: 150px;*/
     border-radius: 4px;
-    margin-top: 420px;
+    /*margin-top: 420px;*/
     overflow: hidden;
 }
 
 .picture-box1 {
     background-color: #C7DDEA;
-    margin-left: 100px;
+   /* margin-left: 100px; */
 }
 
 .picture-box2 {
     background-color: #FAB131;
-    margin-left: 385px;
+  /*  margin-left: 385px; */
 }
 
 .picture-box3 {
     background-color: #F17949;
-    margin-left: 670px;
+   /* margin-left: 670px; */
+    /*     background-image: url(img/old.png); */
 }
 
 .white-box-heading {
-    position: absolute;
+    /*position: absolute;
     width: 198px;
-    height: 13px;
+    height: 13px;*/
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
-    margin-left: 25px;
+   /* margin-top: 150px;
+    margin-left: 25px; */
 }
 
 .white-box-heading-header {
@@ -235,17 +238,17 @@ section {
 }
 
 .white-box-para {
-    position: absolute;
+    /*position: absolute;
     width: 214px;
-    height: 108px;
+    height: 108px;*/
     text-align: center;
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 11px;
     line-height: 18px;
-    margin-top: 175px;
-    margin-left: 20px;
+  /*  margin-top: 175px;
+    margin-left: 20px;*/
     color: rgba(0, 0, 0, 0.4);
 }
 
@@ -301,9 +304,9 @@ section {
 }
 
 .number-box {
-    position: absolute;
-    width: 100%;
-    height: 11%;
+    /*position: absolute;
+    width: 100px;
+    height: 100px;*/
     display: flex;
     text-align: center;
     letter-spacing: -0.02em;
@@ -315,11 +318,15 @@ section {
 
 .text-box {
     display: flex;
-    width: 100%;
-    height: 11%;
+   /* width: 257px;
+    height: 113px;*/
+    align-content: center;
     justify-content: center;
     text-align: center;
     align-self: center;
+    justify-self: center;
+  /*  padding-left: 30px;
+    padding-top: 40px; */
 }
 
 .heading-align {
@@ -403,8 +410,8 @@ button {
 nav>ul>li {
     display: inline;
     color: grey;
-    padding-right: 55px;
-    padding-left: 55px;
+   /* padding-right: 55px;
+    padding-left: 55px; */
     font-family: Fira Sans;
     font-style: normal;
     font-size: 12px;
