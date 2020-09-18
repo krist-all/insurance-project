@@ -238,6 +238,8 @@ section {
     align-self: center;
     justify-self: center;
     padding: 1%;
+    margin-top: -104%;
+    margin-right: -8%;
 }
 
 .picture-box1 {
@@ -283,8 +285,10 @@ section {
     font-size: 0.688em;
     line-height: 1.125em;
     color: rgba(0, 0, 0, 0.4);
-    padding-top: 10%;
-    padding-left: 8%;
+/*     padding-top: 10%;
+    padding-left: 8%; */
+    display: flex;
+    flex-direction: column;
 }
 
 .main-container2 {
