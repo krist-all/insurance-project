@@ -9,7 +9,7 @@ body {
 .wrapper {
     display: grid;
     max-width: 100%;
-    grid-template-columns: 1fr 70% 1fr; 
+    grid-template-columns: 1fr 70% 1fr;
     grid-template-rows: 25% 80% 15%;
     background-color: #E5E5E5;
 }
@@ -70,10 +70,9 @@ section {
     grid-column: 1/2;
     background-color: #C7DDEA;
     flex-direction: column;
-    
 }
 
-.header-container2 .header-container3{
+.header-container2 .header-container3 {
     grid-column: 2/3;
 }
 
@@ -131,9 +130,7 @@ section {
     color: white;
 }
 
-.heading-box3 {
-
-}
+.heading-box3 {}
 
 .para-box2 {
     align-items: center;
@@ -156,11 +153,9 @@ section {
 
 .button1 {
     align-self: center;
-
 }
 
 .button2 {
-
     /* reminder: this is a really bad fix for the button2 item */
 }
 
@@ -175,6 +170,7 @@ section {
     align-items: center;
     justify-content: center;
 }
+
 
 /*
 .white-box1 {
@@ -251,9 +247,8 @@ section {
     min-height: 680px;
 }
 
-.main-boxes{
+.main-boxes {
     min-height: 340px;
-
 }
 
 .main-container3 {
@@ -671,7 +666,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 414px) {
-    .wrapper {}
     .grid-item {
         display: block;
         grid-template-columns: 1fr;
@@ -682,6 +676,44 @@ a:hover {
     }
 }
 
+.header-container2 {
+    height: 18%;
+}
+
+.header-container3 {
+    height: 18%;
+}
+
+.grid-item-nav {
+    display: none;
+}
+
+.main-container3 {
+    height: 5%;
+}
+
+.main-container4 {
+    height: 5%;
+}
+
+.main-container5 {
+    height: 5%;
+}
+
+.main-container6 {
+    height: 5%;
+}
+
+.main-container7 {
+    height: 5%;
+}
+
+.main-container8 {
+    height: 5%;
+}
+
+
+}
 
 /* @media only screen and (max-width: 414px){
 {
