@@ -722,6 +722,10 @@ a:hover {
     padding: 0;
 }
 
+.para-box-text-p-padding-top {
+    padding-top: 25%;
+}
+
 @media only screen and (max-width: 414px) {
     .grid-item {
         display: flex;
@@ -791,6 +795,12 @@ a:hover {
     }
     .white-box-container {
         flex-direction: column;
+    }
+    .content-container {
+        flex-direction: column;
+    }
+    .para-box-text-p-padding-top {
+        padding-top: 0%;
     }
 }
 
