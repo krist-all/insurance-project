@@ -225,10 +225,6 @@ section {
     margin-left: 25px;
 }
 
-/* .white-box-heading h6 {
-
-} */
-
 .white-box-heading-header {
     font-family: Frank Ruhl Libre;
     font-style: normal;
@@ -309,13 +305,10 @@ section {
     width: 100%;
     height: 11%;
     display: flex;
-    /* align-items: center; */
     text-align: center;
     letter-spacing: -0.02em;
     padding: 3%;
     font-family: Frank Ruhl Libre;
-    /* font-style: normal; */
-    /* font-weight: 900; */
     font-size: 200%;
     color: rgba(0, 0, 0, 0.4);
 }
@@ -324,13 +317,9 @@ section {
     display: flex;
     width: 100%;
     height: 11%;
-    /* align-content: center; */
     justify-content: center;
     text-align: center;
     align-self: center;
-    /* justify-self: center;
-    padding-left: 30px;
-    padding-top: 40px; */
 }
 
 .heading-align {
@@ -498,7 +487,6 @@ nav>ul>li {
 }
 
 .contact_empty_footer {
-    /* todo: find out why it's there while not holding a function */
     width: 100%;
     height: 340px;
     background: #777574;
@@ -646,7 +634,6 @@ a:hover {
 
 .index_container1_familypicture {
     display: flex;
-    /* grid-area: 2 / 7 / 9 / 9; */
     justify-content: right;
     align-self: flex-end;
     width: 286px;
@@ -655,17 +642,12 @@ a:hover {
 
 .picture-box-picture-size {
     display: flex;
-    /* size: 20%; */
-    /*  height: 20%;
-    width: 20%;*/
-    /* height: inherit; reminder: this one makes them all fit in the box */
     height: 281%;
     margin-left: auto;
     margin-right: auto;
     width: auto;
     overflow: hidden;
     margin-top: 8%;
-    /*     clip: rect(0px, 235px, 150px, 0px); reminder testing pourpose*/
 }
 
 .picture-box-picture-size-kid-kid {
@@ -674,7 +656,6 @@ a:hover {
 
 .para-box-text-p {
     font-family: Fira Sans;
-    /* font-style: normal; */
     font-weight: 600;
     font-size: 87%;
     line-height: 179%;
