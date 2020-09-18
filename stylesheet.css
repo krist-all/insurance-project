@@ -115,10 +115,10 @@ section {
     
 }
 
-
+/*
 .grid-item-nav {
     min-height: 68px;
-}
+}*/
 
 .main-container1 {
     grid-column: 1/4;
@@ -458,13 +458,21 @@ button { /* reminder: the button is using pixels in order to determen the size *
     align-items: center;
     text-align: center;
 }
-
+/*
 nav>ul>li {
     display: inline;
     color: grey;
     font-family: Fira Sans;
     font-style: normal;
     font-size: 0.750em;
+}*/
+ .navbar.navbar-mainpage {
+    display: flex;
+    background-color: #E5E5E5 ;
+    width: 100%;
+    padding-left: 50%;
+    
+    
 }
 
 .navbar {
@@ -472,8 +480,8 @@ nav>ul>li {
     flex-direction: row;
     width: auto;
     background-color: #ffffff;
-    margin: 0;
-    padding: 0;
+   /* margin: 0;
+    padding: 0;*/
 }
 
 .navbar_list {
