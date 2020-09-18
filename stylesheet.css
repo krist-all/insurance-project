@@ -2,10 +2,10 @@
     margin: 0%;
 }
 
-body{
+body {
     background-color: #E5E5E5;
-
 }
+
 .wrapper {
     display: grid;
     max-width: 100%;
@@ -73,11 +73,11 @@ section {
     min-height: 544px;
 }
 
-.header-container2 .header-container3{
+.header-container2 .header-container3 {
     min-height: 272px;
     grid-column: 2/3;
-
 }
+
 .header-container2 {
     grid-row: 1/2;
     background-color: #F17949;
@@ -87,9 +87,11 @@ section {
     grid-row: 2/3;
     background-color: #FAB131;
 }
-.grid-item-nav{
+
+.grid-item-nav {
     min-height: 68px;
 }
+
 .main-container1 {
     grid-column: 1/4;
     background-color: #A9A19E;
@@ -99,7 +101,7 @@ section {
     /*width: 314px;
     height: 101px;*/
     align-self: center;
-   /* margin-top: 60px;*/
+    /* margin-top: 60px;*/
 }
 
 .heading-box1 h1 {
@@ -110,14 +112,14 @@ section {
     /*width: 280px;
     height: 103px;*/
     align-self: center;
-   /* margin-right: 40px;*/
+    /* margin-right: 40px;*/
 }
 
 .heading-box2 h1 {
     align-items: center;
     justify-content: center;
     position: absolute;
-   /* margin-top: 60px;
+    /* margin-top: 60px;
     margin-left: 50px; 
     width: 340px;
     height: 140px; */
@@ -134,7 +136,7 @@ section {
 }
 
 .heading-box3 {
-   /* margin-top: 90px;*/
+    /* margin-top: 90px;*/
 }
 
 .para-box2 {
@@ -150,7 +152,7 @@ section {
 }
 
 .para-box3 {
-  /*  width: 442px;
+    /*  width: 442px;
     height: 280px;
     margin-top: 30px;*/
     display: flex;
@@ -166,7 +168,7 @@ section {
 }
 
 .button2 {
-   /* margin-left: 100px;
+    /* margin-left: 100px;
     position: absolute;
     margin-top: -604px;
     /* reminder: this is a really bad fix for the button2 item */
@@ -185,6 +187,8 @@ section {
     justify-content: center;
     /*margin-top: 600px;*/
 }
+
+
 /*
 .white-box1 {
     margin-left: 90px;
@@ -198,6 +202,7 @@ section {
     margin-left: 660px;
 }
 */
+
 .picture-box {
     /*position: absolute;*/
     /*width: 236px;
@@ -209,17 +214,17 @@ section {
 
 .picture-box1 {
     background-color: #C7DDEA;
-   /* margin-left: 100px; */
+    /* margin-left: 100px; */
 }
 
 .picture-box2 {
     background-color: #FAB131;
-  /*  margin-left: 385px; */
+    /*  margin-left: 385px; */
 }
 
 .picture-box3 {
     background-color: #F17949;
-   /* margin-left: 670px; */
+    /* margin-left: 670px; */
     /*     background-image: url(img/old.png); */
 }
 
@@ -230,7 +235,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-   /* margin-top: 150px;
+    /* margin-top: 150px;
     margin-left: 25px; */
 }
 
@@ -253,7 +258,7 @@ section {
     font-weight: bold;
     font-size: 0.688em;
     line-height: 1.125em;
-  /*  margin-top: 175px;
+    /*  margin-top: 175px;
     margin-left: 20px;*/
     color: rgba(0, 0, 0, 0.4);
 }
@@ -264,7 +269,6 @@ section {
     background-color: #FAB131;
     justify-content: center;
     align-items: center;
-
 }
 
 .main-container3 {
@@ -315,7 +319,7 @@ section {
     width: 100%;
     height: 11%;
     display: flex;
-   /*  text-align: center; */
+    /*  text-align: center; */
     letter-spacing: -0.02em;
     padding: 3%;
     font-family: Frank Ruhl Libre;
@@ -417,7 +421,7 @@ button {
 nav>ul>li {
     display: inline;
     color: grey;
-   /* padding-right: 55px;
+    /* padding-right: 55px;
     padding-left: 55px; */
     font-family: Fira Sans;
     font-style: normal;
@@ -685,7 +689,31 @@ a:hover {
     color: rgba(0, 0, 0);
 }
 
-/* @media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) {
+    .wrapper {}
+    .grid-item {
+        display: block;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+    }
+    .header-container1 {
+        width: 100%;
+    }
+}
+
+
+/* @media only screen and (max-width: 414px){
+{
+    .wrapper {}
+    .grid-item {
+        display: block;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+    }
+    .header-container1 {
+        width: 100%;
+    }
+ {
     .wrapper {
         position: relative;
         width: 375px;
