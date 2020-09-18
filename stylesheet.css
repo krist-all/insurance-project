@@ -698,7 +698,7 @@ a:hover {
 
 .picture-box-picture-size {
     display: flex;
-    height: 281%;
+    height: 25.625em;
     margin-left: auto;
     margin-right: auto;
     width: auto;
@@ -707,7 +707,7 @@ a:hover {
 }
 
 .picture-box-picture-size-kid-kid {
-    height: 122%;
+    height: 11.875em;
 }
 
 .para-box-text-p {
