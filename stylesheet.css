@@ -131,7 +131,7 @@ section {
     display: block;
     min-height: 500px ;
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 
@@ -183,7 +183,7 @@ section {
 
 .button1 {
     align-self: center;
-    margin-top: 3%;
+    /* margin-top: 3%; */
 
 }
 
@@ -724,6 +724,11 @@ a:hover {
 
 .para-box-text-p-padding-top {
     padding-top: 25%;
+}
+.button1-flex-flow-container {
+    flex-basis: 100%;
+    margin-top: -13%;
+    margin-left: 10%;
 }
 
 @media only screen and (max-width: 414px) {
