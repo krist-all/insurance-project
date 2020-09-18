@@ -781,10 +781,6 @@ a:hover {
         display: flex;
         align-self: center;
     }
-/*     .para-box3 {
-
-
-    } */
     .main-boxes {
         height: 10.625em;
     }
@@ -809,9 +805,33 @@ a:hover {
     }
     .content-container {
         flex-direction: column;
+        display: flex;
+        margin: 0%
     }
     .para-box-text-p-padding-top {
         padding-top: 0%;
+    }
+    .button1-flex-flow-container {
+        display: none;
+    }
+    .heading-box2 {
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+    .para-box2 {
+        margin: 3% 0%;
+        padding: 2% 0%;
+    }
+    .white-box-container {
+        width: 80%;
+        margin: 0%;
+    }
+    .white-box {
+        min-width: 100%;
+        margin: 10% 0%;
+    }
+    .main-container2 {
+        margin-top: 0%;
     }
 }
 
