@@ -144,13 +144,15 @@ section {
     font-weight: 900;
     font-size: 2.813em;
     line-height: 100%;
-    letter-spacing: -0.02em
+    letter-spacing: -0.02em;
+    padding-top: 14%;
 }
 .heading-box2{
     max-width: 340px;
     max-height: 140px;
     padding-top: 10%;
     padding-left: 15%;
+    
 }
 
 .heading-box3 h1 {
@@ -185,7 +187,7 @@ section {
 
 .button1 {
     align-self: center;
-    margin-top: 7%;
+    margin-top: 17%;
     margin-left: 5%;
 
 
