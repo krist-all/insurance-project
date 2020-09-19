@@ -365,7 +365,7 @@ section {
     display: flex;
     /*  text-align: center; */
     letter-spacing: -0.02em;
-    padding: 3%;
+    padding: 3% 0 0 3%;
     font-family: Frank Ruhl Libre;
     font-size: 200%;
     color: rgba(0, 0, 0, 0.4);
@@ -416,7 +416,8 @@ h3 {
     color: rgba(0, 0, 0, 0.7);
     display: flex;
     align-self: center;
-    padding-right: 115%;
+    align-self: flex-start;
+    margin-left: -103%;
 }
 
 h5 {
@@ -715,7 +716,7 @@ a:hover {
 }
 
 .picture-box-picture-size-kid-kid {
-    height: 11.875em;
+    height: 9.375em;
 }
 
 .para-box-text-p {
@@ -794,6 +795,7 @@ a:hover {
     }
     .main-boxes {
         height: 10.625em;
+        min-height: 0%;
     }
     .footer-container1 {
         display: none;
