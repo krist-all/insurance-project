@@ -10,7 +10,6 @@ body {
     display: grid;
     max-width: 100%;
     grid-template-columns: 1fr 70% 1fr;
-    /*grid-template-rows: 25% 80% 15%;*/
     background-color: #E5E5E5;
 }
 
@@ -28,21 +27,18 @@ body {
 
 .grid-item1 {
     grid-template-columns: 1fr 1fr;
-    /*grid-template-rows: 45% 45% 1fr;*/
     grid-row: 1/2;
     grid-column: 2/3;
 }
 
 .grid-item2 {
     grid-template-columns: 1fr 1fr 1fr;
-    /*grid-template-rows: 25% 30% 1fr 1fr;*/
     grid-row: 2/3;
     grid-column: 2/3;
 }
 
 .grid-item3 {
     grid-template-columns: 1fr;
-   /* grid-template-rows: 30% 1fr;*/
     grid-row: 3/4;
     grid-column: 2/3;
 }
@@ -89,36 +85,29 @@ section {
     max-height: 103px;
     align-self: center;
 }
+
 .family-container {
     align-self: flex-end;
     margin-right: 4%;
     max-width: 286px;
     max-height: 279px;
-
 }
+
 .header-container2 .header-container3 {
     grid-column: 2/3;
-    
 }
 
 .header-container2 {
     grid-row: 1/2;
     background-color: #F17949;
     min-height: 272px;
-    
 }
 
 .header-container3 {
     grid-row: 2/3;
     background-color: #FAB131;
     min-height: 272px;
-    
 }
-
-/*
-.grid-item-nav {
-    min-height: 68px;
-}*/
 
 .main-container1 {
     grid-column: 1/4;
@@ -127,6 +116,7 @@ section {
     display: flex;
     flex-direction: column;
 }
+
 .content-container {
     display: block;
     min-height: 500px ;
@@ -135,7 +125,6 @@ section {
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     margin: 0% 10% -3% 1%;
 }
-
 
 .heading-box2 h1 {
     text-align: left;
@@ -152,7 +141,6 @@ section {
     max-height: 140px;
     padding-top: 10%;
     padding-left: 15%;
-    
 }
 
 .heading-box3 h1 {
@@ -161,7 +149,6 @@ section {
 
 .heading-box3 {
     padding: 10% 0 3% 0;
-
 }
 
 .para-box2 {
@@ -189,15 +176,11 @@ section {
     align-self: center;
     margin-top: 17%;
     margin-left: 5%;
-
-
 }
 
 .button2 {
     margin-top: 13%;
     margin-left: 30%;
-
-
 }
 .white-box-container {
     display: flex;
@@ -208,13 +191,11 @@ section {
     justify-content: space-around;
     align-self: center;
     justify-self: center;
-    /*margin-left: 10%;*/
     margin-bottom: -1%;
     z-index: 1;
 }
 .white-box {
     min-width: 256px;
-    /*max-height: 308px;*/
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -222,15 +203,6 @@ section {
     justify-content: center;
 
 }
-
-/* .white-box1 {
- 
-}
-.white-box2 {
-    
-}
-.white-box3 {
-} */
 
 .picture-box-container {
     display: flex;
@@ -248,9 +220,6 @@ section {
     overflow: hidden;
     align-self: center;
     justify-self: center;
- /*    padding: 1%; */
-/*     margin-top: -104%;
-    margin-right: -8%; */
     width: 90%;
     margin: -10% 2% 10% 4%;
 }
@@ -265,7 +234,6 @@ section {
 
 .picture-box3 {
     background-color: #F17949;
-    /*     background-image: url(img/old.png); */
 }
 
 .white-box-heading {
@@ -316,6 +284,7 @@ section {
 .main-boxes {
     min-height: 340px;
 }
+
 .main-container3 {
     grid-row: 3/4;
     grid-column: 1/2;
@@ -363,7 +332,6 @@ section {
     width: 100%;
     height: 11%;
     display: flex;
-    /*  text-align: center; */
     letter-spacing: -0.02em;
     padding: 3% 0 0 3%;
     font-family: Frank Ruhl Libre;
@@ -459,14 +427,7 @@ button { /* reminder: the button is using pixels in order to determen the size *
     align-items: center;
     text-align: center;
 }
-/*
-nav>ul>li {
-    display: inline;
-    color: grey;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-size: 0.750em;
-}*/
+
  .navbar.navbar-mainpage {
     display: flex;
     color: grey;
@@ -475,7 +436,6 @@ nav>ul>li {
     font-style: normal;
     font-size: 0.750em;
     width: 100%;
-    /* padding-left: 50%; */
     grid-area: 3 / 1 / 3 / 3;
     
 }
@@ -485,8 +445,6 @@ nav>ul>li {
     flex-direction: row;
     width: auto;
     background-color: #ffffff;
-   /* margin: 0;
-    padding: 0;*/
 }
 
 .navbar_list {
@@ -518,7 +476,6 @@ nav>ul>li {
 }
 
 .contact_header {
-    /* todo: want to clean up the grid */
     height: 340px;
     /* todo: fix height to be dynamic */
     display: grid;
@@ -528,7 +485,6 @@ nav>ul>li {
 }
 
 .contact_header_text {
-    /* todo: fit text to box in " oh hello there" or check i they want it to be dynamic */
     display: grid;
     grid-area: 5 / 4 / 7 / 6;
     font-weight: 900;
@@ -554,7 +510,6 @@ nav>ul>li {
 
 .contact_map {
     width: 92%;
-    /* reminder: the reduced width fixes the padding issue with the yellow box */
     height: 407px;
     padding: 4%;
     background: url(Map.png);
@@ -747,6 +702,7 @@ a {
 .para-box-text-p-padding-top {
     padding-top: 25%;
 }
+
 .button1-flex-flow-container {
     flex-basis: 100%;
     margin-top: -13%;
@@ -759,8 +715,6 @@ a {
     }
     .grid-item {
         display: flex;
-        /* grid-template-columns: 1fr;
-        grid-template-rows: 2fr 1fr 1fr; */
         flex-flow: column;
     }
     .header-container1 {
@@ -778,8 +732,6 @@ a {
     .wrapper {
     display: flex;
     width: 100%;
-    /* grid-template-columns: 100%; */
-    /* grid-template-rows: 25% 80% 15%; */
     flex-flow: column;
     }
     .main-container1 {
@@ -813,7 +765,6 @@ a {
         padding: 6%;
     }
     .button2 {
-        /* margin-top: 0%; */
         margin-left: 10%;
     }
     .index_container1_familypicture {
@@ -880,123 +831,8 @@ a {
         margin: 0%;
         padding: 0%;
         overflow-x: hidden;
-
     }
 }
-
-
-/* @media only screen and (max-width: 414px){
-{
-    .wrapper {}
-    .grid-item {
-        display: block;
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr 1fr 1fr;
-    }
-    .header-container1 {
-        width: 100%;
-    }
- {
-    .wrapper {
-        position: relative;
-        width: 375px;
-        height: 4758px;
-        background: #EBEBEB;
-        padding: 0%;
-    }
-    .header-container1 {
-        width: 375px;
-        height: 780px;
-        flex-direction: column;
-    }
-    .button2 {
-        position: static;
-        margin-top: 55px;
-        margin-bottom: 50px;
-        margin-left: 20px;
-    }
-    .header-container2 {
-        position: absolute;
-        width: 375px;
-        height: 315px;
-        left: 0px;
-        top: 724px;
-    }
-    .header-container3 {
-        position: absolute;
-        width: 375px;
-        height: 315px;
-        left: 0px;
-        top: 427px;
-    }
-    .main-container1 {
-        position: absolute;
-        width: 375px;
-        height: 1580px;
-        left: 0px;
-        top: 1354px;
-    }
-    .main-container2 {
-        position: absolute;
-        width: 375px;
-        height: 550px;
-        left: 0px;
-        top: 2934px;
-        background: #FAB131;
-    }
-    .main-container3 {
-        position: absolute;
-        width: 375px;
-        height: 170px;
-        left: 0px;
-        top: 3484px;
-        background: #C7DDEA;
-    }
-    .main-container4 {
-        position: absolute;
-        width: 375px;
-        height: 170px;
-        left: 0px;
-        top: 3654px;
-        background: #FFFFFF;
-    }
-    .main-container5 {
-        position: absolute;
-        width: 375px;
-        height: 170px;
-        left: 0px;
-        top: 3824px;
-        background: #EBEBEB;
-    }
-    .heading-align {
-        position: absolute;
-        width: 342px;
-        height: 140px;
-        left: 16px;
-        top: 1391px;
-    }
-    .index_container1_familypicture {
-        width: 330px;
-        height: auto;
-        align-self: center;
-    }
-    .grid-item-nav {
-        display: none;
-    }
-    .heading-box2 h1 {
-        position: static;
-        margin-left: 15px;
-        margin-top: 15px;
-        justify-content: flex-start;
-    }
-    .para-box2 {
-        margin: 0;
-        padding-left: 15px;
-        width: 320px;
-        margin-top: 160px;
-    } */
-
-
     .main-content{
 
         display: block;
