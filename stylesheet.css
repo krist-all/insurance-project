@@ -418,7 +418,6 @@ button { /* reminder: the button is using pixels in order to determen the size *
     border-radius: 100px;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     border: none;
-    top: 913px;
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
@@ -456,7 +455,7 @@ button { /* reminder: the button is using pixels in order to determen the size *
     align-items: center;
     list-style-type: none;
     width: 100%;
-    height: 68px;
+    height: 4.250em;
     /* todo: fix height to be dynamic */
     margin: 0 15% 0 15%;
     padding: 0;
@@ -476,7 +475,7 @@ button { /* reminder: the button is using pixels in order to determen the size *
 }
 
 .contact_header {
-    height: 340px;
+    min-height: 340px;
     /* todo: fix height to be dynamic */
     display: grid;
     max-width: 100%;
@@ -504,20 +503,20 @@ button { /* reminder: the button is using pixels in order to determen the size *
 
 .contact_input {
     width: 100%;
-    height: 544px;
+    min-height: 544px;
     background: #A9A19E;
 }
 
 .contact_map {
     width: 92%;
-    height: 407px;
+    min-height: 407px;
     padding: 4%;
     background: url(Map.png);
 }
 
 .contact_empty_footer {
     width: 100%;
-    height: 340px;
+    min-height: 340px;
     background: #777574;
 }
 
@@ -527,11 +526,11 @@ a {
     text-decoration: none;
 }
 
-.text-container {
+/* .text-container {
     padding-top: 20px;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
-}
+} */
 
 .contact_input {
     display: grid;
@@ -568,6 +567,7 @@ a {
     opacity: 0.7;
     height: 150%;
     margin-top: 3%;
+    margin-left: 0%;
 }
 
 .contact_input_container_form1 {
